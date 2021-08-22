@@ -68,5 +68,5 @@ export default function useAuthReducer() {
         dispatch({ type: ACTIONS.LOGOUT_SUCCESS })
     }
 
-    return { state, methods: { login, logout } }
+    return { state, dispatch: { login, logout } }
 }

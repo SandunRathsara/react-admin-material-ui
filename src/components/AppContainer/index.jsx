@@ -1,6 +1,5 @@
 import React from 'react'
-import { Box, Container } from '@material-ui/core'
-import { Skeleton } from '@material-ui/lab'
+import { Box, Container, Skeleton } from '@material-ui/core'
 import Header from './Header'
 import useAppContainerReducer from '../../context/AppContainer'
 import './index.scss'
